@@ -26,9 +26,9 @@ passwordInput.addEventListener("input", function () {
   if (password.match(/[a-z]/)) score++;
   if (password.match(/[A-Z]/)) score++;
   if (password.match(/[0-9]/)) score++;
-  if (password.match(/[^a-zA-Z0-9]/)) score++;}
-  else{
-   let score = 1;
+  if (password.match(/[^a-zA-Z0-9]/)) score++;
+  }else{
+    score = 1;
    }
   
 
